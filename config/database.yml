@@ -6,6 +6,7 @@ development:
   timeout: 5000
   username: alex
   password:
+  host: localhost
 
 test:
   adapter: postgresql
@@ -15,6 +16,7 @@ test:
   timeout: 5000
   username: alex
   password:
+  host: localhost
 
 # cucumber:
 #   <<: *test
