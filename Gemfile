@@ -9,6 +9,7 @@ gem "pg", "~> 0.16.0"
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'rspec-rails'
